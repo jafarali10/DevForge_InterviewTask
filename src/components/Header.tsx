@@ -4,9 +4,6 @@ import { useCartStore } from '../store/cartStore';
 import CartDropdown from './CartDropdown';
 import { CartItem } from '../types/types';
 
-type CartDropdownProps = {
-  onClose: () => void;
-};
 
 const Header = () => {
   const [isCartOpen, setIsCartOpen] = useState(false);
